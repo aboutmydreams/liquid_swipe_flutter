@@ -54,9 +54,18 @@ class _ItemSelectorState extends State<ItemSelector> {
               mainAxisSize: MainAxisSize.min,
               children: <Widget>[
                 Spacer(),
+                // SizedBox(height: 100),
+                // Expanded(
+                //     child: Text(
+                //   ' What’s \n important?',
+                //   style: TextStyle(fontSize: 40),
+                // )),
                 Center(
                     child: LargeButton(
                   text: 'send',
+                  onTap: () {
+                    print('object');
+                  },
                 )),
                 SizedBox(height: 30)
               ],

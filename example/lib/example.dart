@@ -205,38 +205,58 @@ class _WithPages extends State<WithPages> {
         mainAxisSize: MainAxisSize.max,
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: <Widget>[
-          Image.asset(
-            'assets/1.png',
-            fit: BoxFit.cover,
-          ),
+          // Image.asset(
+          //   'assets/1.png',
+          //   fit: BoxFit.cover,
+          // ),
+          SizedBox(height: 100),
+          Expanded(
+              child: Text(
+            ' What’s \n important asdosiahdj oasij?',
+            style: TextStyle(fontSize: 40),
+          )),
         ],
       ),
     ),
     Container(
-      color: Colors.deepPurpleAccent,
+      width: 425,
+      color: Color.fromRGBO(236, 203, 255, 1),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         mainAxisSize: MainAxisSize.max,
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: <Widget>[
-          Image.asset(
-            'assets/1.png',
-            fit: BoxFit.cover,
-          ),
+          // Image.asset(
+          //   'assets/1.png',
+          //   fit: BoxFit.cover,
+          // ),
+          SizedBox(height: 100),
+          Expanded(
+              child: Text(
+            ' What’s \n important asdosiahdj oasij?',
+            style: TextStyle(fontSize: 40),
+          )),
         ],
       ),
     ),
     Container(
-      color: Colors.greenAccent,
+      width: 425,
+      color: Color.fromRGBO(255, 201, 214, 1),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         mainAxisSize: MainAxisSize.max,
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: <Widget>[
-          Image.asset(
-            'assets/1.png',
-            fit: BoxFit.cover,
-          ),
+          // Image.asset(
+          //   'assets/1.png',
+          //   fit: BoxFit.cover,
+          // ),
+          SizedBox(height: 100),
+          Expanded(
+              child: Text(
+            ' What’s \n important?',
+            style: TextStyle(fontSize: 40),
+          )),
         ],
       ),
     ),
@@ -247,10 +267,16 @@ class _WithPages extends State<WithPages> {
         mainAxisSize: MainAxisSize.max,
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: <Widget>[
-          Image.asset(
-            'assets/1.png',
-            fit: BoxFit.cover,
-          ),
+          // Image.asset(
+          //   'assets/1.png',
+          //   fit: BoxFit.cover,
+          // ),
+          SizedBox(height: 100),
+          Expanded(
+              child: Text(
+            'Nicknames',
+            style: TextStyle(fontSize: 40),
+          )),
         ],
       ),
     ),

@@ -37,7 +37,7 @@ class CenterCircularWave extends CustomClipper<Path> {
     ///So have to use addArc().It took me 3 hours to make this workaround, lol.
     ///try to use addOval instead, and u will find the issue
     path.addArc(rect, 90, -270);
-    print('verReveal=====$verReveal');
+    // print('verReveal=====$verReveal');
     return path;
   }
 
