@@ -43,6 +43,7 @@ enum TransitionGoal {
 enum WaveType {
   circularReveal,
   liquidReveal,
+  centerCircularReveal,
 }
 
 ///Utils Methods
